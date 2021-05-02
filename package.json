@@ -2,9 +2,9 @@
   "name": "recipe",
   "version": "1.0.0",
   "description": "recept för olika sort av pizza",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "app.js"
+    "start": "index.js"
   },
   "engines": {
     "node": "v15.4.0"
