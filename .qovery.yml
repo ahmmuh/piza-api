@@ -1,0 +1,14 @@
+---
+application:
+  name: "piza-api"
+  project: "piza-api"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "pizza"
+routers:
+- name: "main-piza-api"
+  routes:
+  - application_name: "piza-api"
+    paths:
+    - "/*"
